@@ -5,3 +5,4 @@ function getVowels(str) {
         }
      return m.length;
 }
+console.log(getVowels("seeing"));

@@ -21,7 +21,7 @@ console.log(parseInt('1.5'));
 console.log(parseInt('1+1'));
 
 //Using Template Literals
-console.log(parseInt(' ${1+1}'));
+console.log(parseInt(`${1 + 1}`));
 
 console.log("**************** Converting numbers to strings ******************");
 //Converting numbers to strinds

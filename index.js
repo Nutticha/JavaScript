@@ -5,7 +5,7 @@ const place   = "World";
 console.log('Hello , World!');
 
 //using substitutions
-console.log('Hello , %s!' , place);
+console.log('Hello, %s!' , place);
 
 //using a string literal
-console.log(' ${message} , ${place}!');
+console.log(`${message}, ${place}!`);
