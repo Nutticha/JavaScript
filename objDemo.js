@@ -7,11 +7,11 @@
 
 // First:
 // Let's defind a simple object (with no properties or methods)
-const blank = {}
+/*const blank = {}
 console.log("Blank type:",typeof blank)
-console.log("Blank value",blank)
+console.log("Blank value",blank)*/
 
-/*
+
 // Next:
 // Lets' define an object with PROPERTIES (attributes)
 // Objects are just a collection of name-value pairs
@@ -21,4 +21,5 @@ const book = {
     author  : "George Orwell",
     isAvailable: false
 }
-*/
+console.log("Book type :" , typeof book);
+console.log("Book value : " , book);

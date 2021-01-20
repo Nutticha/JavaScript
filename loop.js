@@ -22,4 +22,13 @@ for(let name of names){
     console.log(name)
 }
 
+
 // do while loop **sniplet
+console.log('-- do while  --')
+index = 0 //ทำใหม่เพราะว่า index ได้มีการเรียกใช้ไปแล้วเลยต้องรีเซ็ตใหม่
+do{
+    const name = names[index]
+    console.log(name)
+    index++;
+
+}while(index< names.length);
